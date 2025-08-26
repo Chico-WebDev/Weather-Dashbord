@@ -5,7 +5,7 @@ Réalisée avec **REACT, TailwindCSS et TypeScript**, en utilisant l’API OpenW
 
 ## Capture d’écran 📸
 
-![Aperçu de l’application](https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop)
+![Aperçu de l’application](./assets/weather-dashboard.PNG)
 
 ## Fonctionnalités ✨
 - Rechercher la météo par ville  
@@ -135,13 +135,13 @@ export const getWeatherByCity = async (city) => {
   });
   return response.data;
 };
----
+
 
 C. Hooks
 
 useGeolocation.js : Récupère la position de l’utilisateur.
 
-```
+
 import { useState, useEffect } from 'react';
 
 export const useGeolocation = () => {
