@@ -5,7 +5,7 @@ Réalisée avec **REACT, TailwindCSS et TypeScript**, en utilisant l’API OpenW
 
 ## Capture d’écran 📸
 
-![Aperçu de l’application](./assets/weather-app.png)
+![Aperçu de l’application](https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop)
 
 ## Fonctionnalités ✨
 - Rechercher la météo par ville  
@@ -106,7 +106,7 @@ Loader.jsx : Affiche une animation pendant le chargement des données.
 B. Services
 
 weatherAPI.js : Contient les fonctions pour interroger l’API OpenWeather.
-```
+
 import axios from 'axios';
 
 const API_KEY = 'VOTRE_CLE_API';
